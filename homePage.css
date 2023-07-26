@@ -783,7 +783,7 @@ button{
     }
     
     .section3{
-        height: 395vw;
+        height: 360vw;
         overflow: hidden;
         width: 100%;
     }
@@ -876,7 +876,7 @@ button{
         border-radius: 1.5rem;
         background-color: transparent;
         box-shadow: none;
-        width: 100%;
+        width: 84%;
         height: 100%;
         -webkit-border-radius: 1.5rem;
         -moz-border-radius: 1.5rem;
@@ -901,8 +901,8 @@ button{
 }
 
     .guidebuttons{
-        margin-left: 4vw;
-        margin-top: 2vw;
+        margin-left: 10vw;
+        margin-top: 10vw;
         display: flex;
         width: 12vw;
         flex-wrap: wrap;
@@ -914,7 +914,7 @@ button{
         display: flex;
         width: 12vw;
         align-items: center;
-        gap: 1.5vw;
+        gap: 3vw;
     }
     
     .upArrow,.leftArrow,.rightArrow,.downArrow{
@@ -946,8 +946,9 @@ button{
     .alt31,.alt32,.alt33,.alt34,.i3,.l3,.k3,.j3{
         margin: 0px;
         font-size: 1.4vw;
-        width: 10.88084vw;
+        width: 9.88084vw;
         height: 10.74766vw;
+        /* height: 10vw; */
         padding-top: 0.1vw;
         font-size: 4.6729vw;
         /*padding-right: 1.4vw;
@@ -965,22 +966,23 @@ button{
     }
     
     .section4{
-        height: 50vw;
+        height: 162vw;
     }
     
     .textbox4{
-        margin-left:9vw;
-        /* display:flex; */
+        margin-left:8vw;
+        display:flex;
         flex-wrap: wrap;
         flex-direction: column;
-        display: inline-block;
+        /* display: inline-block; */
+        row-gap: 5vw;
     }
     
     .title4{
         position: relative;
-        font-size: 3.45vw;
+        font-size: 6vw;
         margin-bottom: 3vw;
-    }
+        }
     
     .feature41,.feature42,.feature43,.feature44{
         display: flex;
@@ -988,73 +990,78 @@ button{
         margin-top: 0vw;
         margin-bottom: 2vw;
         flex-wrap: wrap;
-        font-size: 1.4vw;
+        font-size: 4.4vw;
+      
     }
     
     .point41,.point42,.point43,.point44{
         font-weight: 400;
         margin:0;
-        margin-left: 1.4vw;
+        margin-left: 3vw;
     }
     
     .button4{
         margin-top: 2vw;   
-        margin-left: 8vw;
-        width: 9vw;
+        margin-left: 0vw;
+        width: 26vw;
+        height: 10vw;
         /* font-size: 0.9vw; */
         font-weight: 500;
         background-color: #00207F;
         color: white;
         font-family: Ubuntu;
-        font-size: 0.95vw;
+        font-size: 3vw;
         padding:1.15vw 2vw 1.15vw 2vw ;
     }
     
     .tick4{
-        width: 3.5vw;
-        height: 3.5vw;
+        width: 10vw;
+        height: 10vw;
     }
     
     .trophyBox4{
         overflow: hidden;
-        width: 46vw;
+        width: 88vw;
         /* background-color: #00207F; */
-        height: 45vw;
+        height: 85vw;
         display: inline-block;
         right: 0;
+        margin-top: 11vw;
         position: absolute;
     }
     
     .trophy4{
         position: absolute;
-        left: 0;
-        top: 5vw;
-        width: 53vw;
+        left: 1vw;
+        top: 0vw;
+        width: 83vw;
         z-index: -9999;
     }
     
     .newkeys {
         display: inline-flex;
         position: absolute;
-        right: 3.6vw;
-        margin-top: 21.5vw;
-        width: 36vw;
+        left: 23vw;
+        margin-top: 37vw;
+        width: 50vw;
         align-items: center;
         /* display: flex; */
         flex-wrap: wrap;
         justify-content: space-around;
         align-content: center;
         z-index: 7774;
+        row-gap: 1vw;
+        column-gap: 1vw;
     }
     
     
     .downKey4,.upKey4{
-        width:9.5vw;
+        width:15vw;
         /* position: absolute; */
     }
     
     .leftKey4,.rightKey4{
-        height: 9.5vw;
+        height: 15vw;
     }
     
     .upKey4{
@@ -1077,7 +1084,7 @@ button{
         margin-top: 12vw;
         z-index: -999;
         width: 100%;
-        height: 37vw;
+        height: 92vw;
         position: absolute;
         background-color: #A2E0FF;
     }
@@ -1085,24 +1092,24 @@ button{
     .footerInfo{
         margin-top: 17vw;
         display: inline-flex;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         align-content: flex-start;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: flex-start;
-        margin-left: 11.5vw;
+        margin-left: 5vw;
     }
     
     .codearrow3d{
-        width: 4.1vw;
+        width: 8.5vw;
         margin-bottom: 12vw;
         margin-right:0.8vw ;
     }
     
     .codearrow{
-        margin-top: 1.3vw;
+        margin-top: 1.6vw;
         color: #00207F;
-        font-size: 1.45vw;
-        letter-spacing: -0.03vw;
+        font-size: 4.6vw;
+        letter-spacing: -0.2vw;
         font-weight: 900;
         margin-bottom: 0.5vw;
     }
@@ -1113,41 +1120,48 @@ button{
     }
     
     .buttonLeftFooter,.buttonMidFooter,.buttonRightFooter{
-        width: 10vw;
+        width: 30vw;
         display: inline-block;
         margin-top: 1vw;
-        font-size: 0.95vw;
+        font-size: 3.95vw;
         /* padding: 0% 7% 0% 7%;  */
     }
     
     .buttonLeftFooter{
-        margin-left: 10vw;
+        margin-left: 39vw;
+        width: 25vw;
+        margin-top: 2vw;
     }
     
     .buttonMidFooter,.buttonRightFooter{
-        margin-left: 8vw;
+        margin-left: 9vw;
+        width: 40vw;
     }
     
     .buttonRightFooter{
-        margin-left: 6vw;
+        margin-top: 8vw;
+        margin-left: 9vw;
+        width: 40vw;
     }
     
     .ftbt,.followMe,.joinMe{
         display: inline-block;
         color: #04060E;
-        width: 10vw;
+        width: 31vw;
         margin-top: 0;
         margin-bottom: 1vw;
-        font-size: 0.95vw;
+        font-size: 2.8vw;
+        font-weight: 500;
         /* font-weight: 500; */
         font-family: Ubuntu;
     }
     
     .copyrightInfo{
-        font-size: 0.9vw;
+        font-size: 2vw;
         letter-spacing: -0.03vw;
         margin-top: 0;
-        width: 12vw;
+        width: 30vw;
+        font-weight: 500;
     }
     
 
