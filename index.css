@@ -5,6 +5,7 @@
   width: 70.94rem;
   height: 49.5rem;
 }
+
 .image-icon {
   position: absolute;
   bottom: 0;
@@ -13,9 +14,11 @@
   height: 45.81rem;
   object-fit: cover;
 }
+
 .span {
   color: var(--color-deepskyblue);
 }
+
 .footer-txt {
   line-break: anywhere;
   width: 100%;
