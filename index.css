@@ -1,345 +1,83 @@
-.background-icon {
-  position: absolute;
-  top: 0;
-  left: 19.13rem;
-  width: 70.94rem;
-  height: 49.5rem;
+.body{
+  font-family: Ubuntu;
+  margin: 0px;
+  padding: 0px;
 }
 
-.image-icon {
+img{
+  width: 10vw;
+}
+
+.background{
+  position: absolute;
+  z-index: -99999;
+  width: 100%;
+  top: 0;
+  right: 0;
+}
+
+.backgroundPhone{
+  display: none;
+}
+
+.dartStand{
+  width: 30vw;
   position: absolute;
   bottom: 0;
-  left: 0.13rem;
-  width: 29.19rem;
-  height: 45.81rem;
-  object-fit: cover;
+  left: 0;
 }
 
-.span {
-  color: var(--color-deepskyblue);
+.dart{
+  display: none;
 }
 
-.footer-txt {
-  line-break: anywhere;
-  width: 100%;
+h1,h2,h3,h4,p,b,button,form{
+  font-family: Ubuntu;
 }
-.footer {
+
+.recipt{
+  margin-top: 5vw;
+  margin-left: 47.2vw;
+}
+
+.reciptsection1{
+
+}
+
+.reciptpaper1-icon{
+  width: 42.25vw;
   position: absolute;
-  top: 48.19rem;
-  left: 40.13rem;
-  display: flex;
-  align-items: center;
-  width: 16rem;
+  display: inline-block;
+  z-index: -10;
 }
-.reciptsection2-child {
-  position: absolute;
-  top: 38.09rem;
-  left: 48.66rem;
-  width: 32.59rem;
-  height: 5.75rem;
+
+.reciptpaper2-icon{
+  margin-top: 0vw;
+   width: 35.85vw;
+   position: absolute;
+   margin-left: 6.4vw
 }
-.reciptpaper2-icon {
-  position: absolute;
-  top: 0;
-  left: 0.09rem;
-  width: 32.54rem;
-  height: 7.25rem;
+
+
+.reciptText{
+  margin-left: 7vw;
 }
-.payback {
-  top: 4.81rem;
-  left: 23.96rem;
-  letter-spacing: 0.02em;
-}
-.fill,
-.payback,
-.submit {
-  position: absolute;
-}
-.fill {
-  top: 0;
-  left: 0;
-  border-radius: var(--br-9xs);
-  background-color: var(--color-midnightblue-100);
-  box-shadow: 0 12px 25px -10px rgba(66, 69, 74, 0.3);
-  width: 8.44rem;
-  height: 3rem;
-}
-.submit {
-  top: 1rem;
-  left: 0.88rem;
-  letter-spacing: 0.02em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 6.63rem;
-}
-.button2 {
-  position: absolute;
-  top: 2.81rem;
-  left: 4.21rem;
-  width: 8.44rem;
-  height: 3rem;
-  font-size: var(--font-size-sm);
-  color: var(--color-white);
-}
-.reciptsection2 {
-  position: absolute;
-  top: 28rem;
-  left: 5.73rem;
-  width: 32.63rem;
-  height: 9.47rem;
-}
-.reciptsection1-child {
-  position: absolute;
-  top: 12.28rem;
-  left: 5.03rem;
-  border-top: 1px solid var(--color-gray-100);
-  box-sizing: border-box;
-  width: 36.38rem;
-  height: 0.06rem;
-}
-.reciptpaper1-icon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 38.35rem;
-  height: 30.31rem;
-}
-.enter-your-payment {
-  position: absolute;
-  top: 4.56rem;
-  left: 11.06rem;
-  font-size: var(--font-size-5xl);
-  letter-spacing: 0.01em;
-  color: var(--color-white);
-  display: flex;
-  align-items: center;
-  width: 21.94rem;
-  height: 5rem;
-}
-.reciptsection1-item {
-  position: absolute;
-  top: 14.22rem;
-  left: 9.91rem;
-  border-top: 3px solid var(--color-gray-100);
-  box-sizing: border-box;
-  width: 10.56rem;
-  height: 0.19rem;
-}
-.reciptsection1-inner {
-  position: absolute;
-  top: 17.31rem;
-  left: 10rem;
-  width: 24.13rem;
-  height: 0.25rem;
-}
-.line-div,
-.reciptsection1-child1 {
-  position: absolute;
-  top: 20.66rem;
-  left: 9.91rem;
-  border-top: 3px solid var(--color-gray-100);
-  box-sizing: border-box;
-  width: 16.5rem;
-  height: 0.19rem;
-}
-.reciptsection1-child1 {
-  top: 23.97rem;
-  width: 24.31rem;
-}
-.note-key-will-container {
-  position: absolute;
-  top: 25.31rem;
-  left: 9.94rem;
-  letter-spacing: 0.02em;
-  color: var(--color-gray-100);
-  text-align: center;
-}
-.terms-and-conditions1 {
-  text-decoration: underline;
-}
-.terms-and-conditions {
-  color: var(--color-midnightblue-200);
-}
-.i-agree-to-container {
-  position: absolute;
-  top: 0.06rem;
-  left: 1.75rem;
-  letter-spacing: 0.01em;
-}
-.group-child {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: var(--br-9xs);
-  background-color: #d9d9d9;
-  width: 1rem;
-  height: 1rem;
-}
-.i-agree-to-terms-and-condition-parent {
-  position: absolute;
-  top: 27.13rem;
-  left: 9.94rem;
-  width: 13.19rem;
-  height: 1rem;
-  color: var(--color-gray-100);
-}
-.reciptsection1-child2,
-.section2-child,
-.section2-item {
-  position: absolute;
-  top: 14.22rem;
-  left: 23.72rem;
-  border-top: 3px solid var(--color-gray-100);
-  box-sizing: border-box;
-  width: 10.56rem;
-  height: 0.19rem;
-}
-.section2-child,
-.section2-item {
-  top: -0.09rem;
-  left: -0.09rem;
-  border-top: 3px dashed var(--color-black);
-  width: 24.25rem;
-}
-.section2-item {
-  top: 5.53rem;
-  border-top: 3px dashed var(--color-gray-100);
-}
-.sadalogo-icon {
-  position: absolute;
-  top: 0.31rem;
-  left: 18.19rem;
-  width: 4.69rem;
-  height: 4.69rem;
-  object-fit: cover;
-}
-.name {
-  font-family: var(--font-ubuntu);
-}
-.account-sadapay {
-  margin: 0;
-}
-.info {
-  position: absolute;
-  top: 0.88rem;
-  left: 0.69rem;
-  letter-spacing: 0.01em;
-}
-.section2 {
-  top: 5.56rem;
-  left: 10rem;
-  width: 24.06rem;
-  height: 5.63rem;
-  font-size: var(--font-size-base);
-  color: #43444a;
-}
-.fill1,
-.section2,
-.title1 {
-  position: absolute;
-}
-.title1 {
-  top: 1.5rem;
-  left: 17.81rem;
-  font-size: 2rem;
-  letter-spacing: 0.01em;
-  line-height: 5.94rem;
+
+.title1{
+  margin-top: 1vw;
+  position:absolute;
+  margin-left: 12.5vw;
+  font-size: 2vw;
+  height: 12vw;
+  display: inline-block;
+  letter-spacing: 0.01vw;
   text-transform: uppercase;
-  display: flex;
-  color: var(--color-black);
-  align-items: center;
-  width: 8.38rem;
-  height: 2.94rem;
 }
-.fill1 {
-  top: 0;
-  left: 0;
-  border-radius: var(--br-9xs);
-  background-color: var(--color-midnightblue-100);
-  box-shadow: 0 12px 25px -10px rgba(66, 69, 74, 0.3);
-  width: 6.88rem;
-  height: 2.24rem;
-}
-.payment-screenshot {
+
+.footer{
   position: absolute;
-  top: 0.38rem;
-  left: 0.34rem;
-  letter-spacing: 0.02em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 6.19rem;
-  height: 1.5rem;
-}
-.button1 {
-  position: absolute;
-  top: 19.56rem;
-  left: 27.31rem;
-  width: 6.88rem;
-  height: 2.24rem;
-  text-align: center;
-  font-size: 0.63rem;
-  color: var(--color-white);
-}
-.account-number,
-.account-type,
-.email,
-.full-name,
-.phone-no {
-  position: absolute;
-  top: 13.25rem;
-  left: 10.25rem;
-  letter-spacing: 0.01em;
-}
-.account-number,
-.account-type,
-.email,
-.phone-no {
-  left: 24.06rem;
-}
-.account-number,
-.account-type,
-.email {
-  top: 16.38rem;
-  left: 10.25rem;
-}
-.account-number,
-.account-type {
-  top: 19.69rem;
-}
-.account-number {
-  top: 22.88rem;
-}
-.recipt,
-.reciptsection1 {
-  position: absolute;
-  width: 41.38rem;
-}
-.reciptsection1 {
-  top: 0;
-  left: 0;
-  height: 30.31rem;
-  text-align: left;
-  font-size: var(--font-size-xs);
-  color: var(--color-gray-200);
-}
-.recipt {
-  top: 6.38rem;
-  left: 42.94rem;
-  height: 37.47rem;
-  text-align: center;
-  font-size: 0.94rem;
-  color: var(--color-midnightblue-200);
-}
-.payment {
-  position: relative;
-  background-color: var(--color-white);
-  width: 100%;
-  height: 49.5rem;
-  overflow: hidden;
-  text-align: left;
-  font-size: var(--font-size-xs);
-  color: var(--color-white);
-  font-family: var(--font-ubuntu);
+  bottom: 0;
+  left: 42vw;
+  color: white; 
+  font-size: 0.8vw;
 }
