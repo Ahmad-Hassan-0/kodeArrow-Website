@@ -17,68 +17,78 @@
     
     <div class="recipt">
         
-        <div class="reciptsection1">
+      <div class="reciptsection1">
           
-          <img class="reciptpaper1-icon" alt="" src="./public/reciptpaper1.svg" />
+        <img class="reciptpaper1-icon" alt="" src="./public/reciptpaper1.svg" />
          
-          <div class="reciptText">
+        <div class="reciptText">
           
           <b class="title1">Receipt</b>
-          <div class="Accinfo">
+
+          <div class="reciptData">
+            
             <div class="account-sadapay">
-              <p class="name">Name:</b> <span class="ahmadHassan"> Ahmad Hassan</span> <br>
-              <p class="accNo">Acc no:</b> <span class="myNo"> +923225522383</span> <br>
-              <p class="accType">Account: <span class="sadaPay"> <font color="red">Sada</font><font color="blue">Pay</font></span></p> <br>
+              <p class="infoText">Name: <span class="ahmadHassan"> Ahmad Hassan</span> <br>
+              Acc no: <span class="myNo"> +923225522383</span> <br>
+              Account: <span class="sadaPay"> <font color="#2AC6AE">Sada</font><font color="#FF6C5A">Pay</font></span></p>
               <img class="sadaLogo" alt="" src="./public/sadalogo@2x.png" />  
             </div>
-          </div>
     
-          <form action="/submit_payment" method="post">
+            <form action="/submit_payment" method="post">
                      
-            <label>
-                <input type="text" id="fullName" name="fullName" placeholder="Full Name" required>
+              <label>
+                <input type="text" id="fullName" name="fullName" placeholder="Full Name" required class="full-name">
             </label>
-            
             <label>
-                <input type="tel" id="phoneNo" name="phoneNo" placeholder="Phone No." required>
-            </label>
-            <br>
-          
-            <label>
-                <input type="email" id="email" name="email" placeholder="Email" required>
+                <input type="tel" id="phoneNo" name="phoneNo" placeholder="Phone no." required class="phone-no">
             </label>
             <br>
-          
             <label>
-              <input type="bank" id="bank" name="bank" placeholder="Bank" required>
+                <input type="email" id="email" name="email" placeholder="Email" required class="email">
             </label>
-            
+            <br>
+            <label>
+                <input type="text" id="bank" name="bank" placeholder="Bank" required class="bank">
+            </label>
             <label for="uploadScreenshot">
-              <button class="uploadButton">Payment Screenshot</button>
-              <input type="file" id="uploadScreenshot" name="screenshot" style="display:none;">
+                <button class="uploadButton">Payment Screenshot</button>
+                <input type="file" id="uploadScreenshot" name="screenshot" style="display:none;" class="screenshot-upload">
             </label>
-          
             <label>
-                <input type="text" id="accountNumber" name="accountNumber" placeholder="Account Number" required>
+                <input type="text" id="accountNumber" name="accountNumber" placeholder="Account Number" required class="account-number">
             </label>
             <br>
-          
-            <label>
-                <input type="checkbox" class="termsAndConditions" id="termsAndConditions" name="termsAndConditions" required>
-                I Agree to <span class="terms-and-conditions1">Terms and Conditions</span>
-            </label>
+            
+            <p class="note"><b>Note:</b> Key will be Sent to your Email & Phone no. within few minutes </p>
+              
             <br>
-        
-        <h3 class="note-key-will-container"> <b>Note:</b> Key will be Sent to your Email & Phone no. within few minutes </div>
-        
-        <div class="reciptsection2">
-          <img class="reciptpaper2-icon" alt="" src="./public/reciptpaper2.svg" />
-          <input type="submit" value="Submit">
-          <h3 class="payback">100% Payback</h3>
+            
+            <div
+              <label class="custom-checkbox">
+                <input type="checkbox" class="termsAndConditions" id="_checkbox" name="termsAndConditions" required>
+                <label for="_checkbox">
+                  <div id="tick_mark"></div>
+                </label>
+                <p class="agreement"> I Agree to <span class="terms-and-conditions1">Terms and Conditions</span>
+                </p>
+            <!-- <div class="custom-checkbox">
+              <input type="checkbox" id="_checkbox">
+              <label for="_checkbox">
+                <div id="tick_mark"></div>
+              </label> -->
+              
+            </div>
+              <div class="reciptsection2">
+                <img class="reciptpaper2-icon" alt="" src="./public/reciptpaper2.svg" />
+                <input type="submit" value="Submit" class="submit">
+                <h3 class="payback">100% Payback</h3>
+              </div>
+      
+            </form>
+          </div>
+      
         </div>
-        
-      </form>
-    </div>
+      </div>
     </div>
     
     <p class="footer"> Copyright <font color="#00ACEC">©</font> 2023. Project by Ahmad Hassan </p>
