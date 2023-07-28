@@ -549,7 +549,7 @@ button{
 }
 
 @media screen and (max-width:600px){
-
+    
     body{
         font-family: Ubuntu;
         margin: 0;
