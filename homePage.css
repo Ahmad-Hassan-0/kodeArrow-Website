@@ -3,6 +3,10 @@ body{
     margin: 0;
 }
 
+img{
+    width: 0;
+}
+
 h1,p,h2,h3,b{
     font-family: Ubuntu;
 }
