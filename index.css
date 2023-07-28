@@ -193,7 +193,7 @@ button,.submit{
 
 
 .note{
-  margin-top: 2.15vw; 
+  margin-top: 2.1vw; 
   color: #04060E;
   font-family: Ubuntu;
   font-size: 0.84vw;
@@ -221,8 +221,7 @@ button,.submit{
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.00833vw;
-  margin-top : 0;
-
+  margin-top : 0.5vw;
 }
 
 .terms-and-conditions1{
@@ -401,10 +400,11 @@ button,.submit{
   font-size: 1.04167vw;
   font-style: normal;
   font-weight: 700;
-  display: inline-block;
+  position: absolute;
   letter-spacing: 0.02083vw;
   float: right;
-  top: 5vw;
+  top: 40vw;
+  right: 12vw;
 }
 
 .footer{
