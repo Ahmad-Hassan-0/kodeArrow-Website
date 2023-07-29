@@ -38,8 +38,12 @@ h1,h2,h3,h4,p,b,button,form{
   font-family: Ubuntu;
 }
 
+.back{
+  display: none;
+}
+
 .recipt{
-  margin-top: 3.2vw;
+  margin-top: 3.3vw;
   margin-left: 47.2vw;
 }
 
@@ -265,9 +269,8 @@ button,.submit{
   line-height: normal;
   letter-spacing: 0.00833vw;
   text-decoration-line: underline;
-  -moz-text-decoration-line:;
+  -moz-text-decoration-line: underline;
 }
-
 
 .custom-checkbox #_checkbox {
   display: none;
@@ -424,8 +427,7 @@ button,.submit{
   float: right;
   margin-left: -4.605vw;
   transition: margin-top 2s;
-  /*display: none;
-   */:;
+  /*display: none;*/
   -webkit-transition: margin-top 2s;
   -moz-transition: margin-top 2s;
   -ms-transition: margin-top 2s;
@@ -499,7 +501,8 @@ button,.submit{
     background-color: #00207F; /* Set the blue background color */
     width: 100%;
     height: 100vh;
-    clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 84%);
+    /* clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 84%); */   
+    clip-path: polygon(0 0, 100% 59vw, 100% 100%, 0 181vw);
   }
   
   .dartStand{
@@ -523,16 +526,24 @@ button,.submit{
   }
   
   .recipt{
-    margin-top: 49vw;
-    margin-left: -19vw;
+    /* margin-top: 49vw; */
+    margin-top: 23vh;
+    margin-left: -20vw;
   }
   
   .reciptsection1{
   
   }
   
+  .back{
+    display: inline-block;
+    top: 10vw;
+    left: 3vw;
+    position: absolute;
+  }
+  
   .reciptpaper1-icon{
-    width: 108vw;
+    width: 112vw;
     display: inline;
     position: absolute;
     z-index: -10;
@@ -543,7 +554,8 @@ button,.submit{
   }
   
   .title1{
-    margin-top: 3vw;
+    /* margin-top: 3vw; */
+    margin-top: 1vh;
     position:absolute;
     margin-left: 29vw;
     font-size: 6vw;
@@ -559,7 +571,10 @@ button,.submit{
     
   .account-sadapay{
     position: absolute;
-    top: 64vw;
+    /* top: 64vw; */
+    top: 26vh;
+    margin-top: 13vw;
+  
     border-color: black;
     border-top: 0.7vw;
     border-bottom: 0.7vw;
@@ -568,17 +583,18 @@ button,.submit{
     border-style: dashed;
     display: inline-block;
     font-weight: 900;
-    width: 69vw;
+    width: 74vw;
     height: 15vw;
     margin-left: 5vw;
-    margin-top: 4.5vw;
+    /* margin-top: 2.5vh; */
   }
   
   .infoText{
     color: #43444A;
     font-size: 3.4vw;
     display: inline-block;
-    margin-top: 1.5vw;
+    /* margin-top: 1.5vw; */
+    margin-top: 0.7vh;
     /* width: 13vw; */
     /* line-height: 3vw; */
     /* letter-spacing: -0.04vw; */
@@ -596,15 +612,16 @@ button,.submit{
   }
   .sadaLogo{
     width: 11vw;
-    margin-left: 13vw;
+    margin-left: 20vw;
     display: inline-block;
     margin-top: 2vw;
+    /* margin-top: 1vh; */
     position: absolute;
   }
   
   form{
     margin-left: 5vw;
-    width: 69vw;
+    width: 74vw;
     position: absolute;
     margin-top: 30vw;
   }
@@ -687,14 +704,14 @@ button,.submit{
     color: white;
     border: none;
     box-shadow: 0 12px 25px -10px rgba(66, 69, 74, 0.3);
-    width: 17vw;
-    height: 6.5vw;
+    width: 19vw;
+    height: 6.8vw;
     border-radius: 0.9vw;
     -webkit-border-radius: 0.9vw;
     -moz-border-radius: 0.9vw;
     -ms-border-radius: 0.9vw;
     -o-border-radius: 0.9vw;
-    font-size: 2vw;
+    font-size: 2.25vw;
     font-weight: 400;
     letter-spacing: 0.01389vw;
     display: inline-grid;
@@ -713,7 +730,8 @@ button,.submit{
     margin-top: 4.1vw; 
     color: #04060E;
     font-family: Ubuntu;
-    font-size: 2.43vw;
+    font-size: 2.6vw;
+    /* text-align: right; */
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -729,7 +747,7 @@ button,.submit{
   }
   
   .agreement{
-    margin-left: 6.6vw;
+    margin-left: 6vw;
     color: #04060E;
     font-family: Ubuntu;
     font-size: 2.8vw;
@@ -738,14 +756,13 @@ button,.submit{
     line-height: normal;
     position: absolute;
     letter-spacing: 0.00833vw;
-    top : 41vw;
+    top : 44.4vw;
   }
-
+  
   .terms-and-conditions1{
     color: #080063;
     font-family: Ubuntu;
     font-size: 2.6vw;
-
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -760,7 +777,7 @@ button,.submit{
   
   .custom-checkbox label {
     position: absolute;
-    top: 45vw;
+    top: 48vw;
     margin-top: 0.55vw;
     border: no;
     display: inline-block;
@@ -776,10 +793,10 @@ button,.submit{
     z-index: 1;
     border: none;
     align-items: center;
-    -webkit-transition:;
-    -moz-transition:;
-    -ms-transition:;
-    -o-transition:;
+    -webkit-transition: 0.2s ease transform, 0.2s ease background-color,    0.2s ease box-shadow;
+    -moz-transition: 0.2s ease transform, 0.2s ease background-color,    0.2s ease box-shadow;
+    -ms-transition: 0.2s ease transform, 0.2s ease background-color,    0.2s ease box-shadow;
+    -o-transition: 0.2s ease transform, 0.2s ease background-color,    0.2s ease box-shadow;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     -ms-border-radius: 100%;
@@ -798,7 +815,7 @@ button,.submit{
     right: 0;
     left: 0;
     width: 2vw;
-    height: 2.2vw;
+    height: 2vw;
     margin: 0 auto;
     background-color: #fff;
     transform: translateY(-50%);
@@ -809,10 +826,10 @@ button,.submit{
     -moz-transition: 0.2s ease width, 0.2s ease height;
     -ms-transition: 0.2s ease width, 0.2s ease height;
     -o-transition: 0.2s ease width, 0.2s ease height;
-    -webkit-transform:;
-    -moz-transform:;
-    -ms-transform:;
-    -o-transform:;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     -ms-border-radius: 100%;
@@ -835,11 +852,11 @@ button,.submit{
   
   .custom-checkbox #tick_mark {
     position: absolute;
-    top: 0px;
+    top: -0.3vw;
     right: 0;
-    left: 0;
-    width: 1vw;
-    height: 0.75vw;
+    left: -0.1vw;
+    width: 3vw;
+    height: 2.75vw;
     margin: 0 auto;
     margin-left: 2px;
     transform: rotateZ(-40deg);
@@ -914,58 +931,58 @@ button,.submit{
 }
   
   .reciptpaper2-icon{
-    top: 58.5vw;
+    top: 51vw;
     z-index: -45;
-    width: 91.5vw;
+    width: 95.5vw;
     position: absolute;
     float: right;
     margin-left: -10.5vw;
     transition: margin-top 2s;
     /*display: none;
-    */:;
+    */-webkit-transition: margin-top 2s;
+    -moz-transition: margin-top 2s;
+    -ms-transition: margin-top 2s;
+    -o-transition: margin-top 2s;
+    -webkit-transition: margin-top 2s;
+}
+  
+  .submitButton{
+    top: 57vw;
+    position:absolute;
+    transition: margin-top 2s;
+    margin-left: 0vw;
+    border-radius: 1vw;
+    background-color: #00207F;
+    color: white;
+    border: none;
+    box-shadow: 0 12px 25px -10px rgba(66, 69, 74, 0.3);
+    width: 25vw;
+    height: 9.5vw;
+    -webkit-border-radius: 1vw;
+    -moz-border-radius: 1vw;
+    -ms-border-radius: 1vw;
+    -o-border-radius: 1vw;
+    font-size: 2.8vw;
+    font-weight: 400;
+    letter-spacing: 0.1389vw;
     -webkit-transition: margin-top 2s;
     -moz-transition: margin-top 2s;
     -ms-transition: margin-top 2s;
     -o-transition: margin-top 2s;
 }
   
-  .submitButton{
-    top: 68.5vw;
-    position:absolute;
-    transition: margin-top 2s;
-    margin-left: 0vw;
-    border-radius: 0.3vw;
-    background-color: #00207F;
-    color: white;
-    border: none;
-    box-shadow: 0 12px 25px -10px rgba(66, 69, 74, 0.3);
-    width: 9.2vw;
-    height: 3.3vw;
-    -webkit-border-radius: 0.3vw;
-    -moz-border-radius: 0.3vw;
-    -ms-border-radius: 0.3vw;
-    -o-border-radius: 0.3vw;
-    font-size: 0.8vw;
-    font-weight: 400;
-    letter-spacing: 0.08389vw;
-    -webkit-transition:;
-    -moz-transition:;
-    -ms-transition:;
-    -o-transition:;
-}
-  
   .payback{
     color: #080063;
     font-family: Ubuntu;
-    font-size: 1.04167vw;
+    font-size: 3.5vw;
     font-style: normal;
     font-weight: 700;
     transition: margin-top 2s;
     position: absolute;
     letter-spacing: 0.02083vw;
     float: right;
-    top: 39.8vw;
-    right: 12vw;
+    top: 59.8vw;
+    right: -6vw;
     -webkit-transition: margin-top 2s;
     -moz-transition: margin-top 2s;
     -ms-transition: margin-top 2s;
@@ -975,8 +992,9 @@ button,.submit{
   .footer{
     position: absolute;
     bottom: 0;
-    left: 42vw;
-    color: white; 
-    font-size: 0.8vw;
+    left: 6vw;
+    font-weight: 500;
+    color:#080063; 
+    font-size: 3.2vw;
   }
 }
