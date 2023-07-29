@@ -1,0 +1,230 @@
+:root {
+    --shadowDsitance: 0.48611vw;
+  }
+
+body{
+    font-family: Ubuntu;
+    margin: 0;
+}
+
+img{
+    width: 0;
+}
+
+h1,p,h2,h3,b{
+    font-family: Ubuntu;
+}
+
+.header{
+    padding-top: 1.8vw;
+    display: flex;
+    align-items: center;
+}
+
+button{
+    background-color: #0030c2;
+    color: white;
+    font-family: Ubuntu;
+    border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+    font-size: 0.95vw;
+    border: none;
+    letter-spacing: 0.02vw;
+    padding:1.15vw 3vw 1.15vw 3vw ;
+    font-weight: 400;
+    box-shadow: 0px 12px 25px -10px rgb(66, 69, 74, 0.3);
+    -webkit-box-shadow: 0px 12px 25px -10px rgb(66, 69, 74, 0.3);
+    -moz-box-shadow: 0px 12px 25px -10px rgb(66, 69, 74, 0.3);
+    
+}
+
+.codearrowTitle1{
+    color: #00207F;
+    font-size: 1.2vw;
+    font-weight: 900;
+    font-family: Ubuntu;
+    margin-left: 4vw;
+    display: inline-block;
+}
+
+.middleTitleBar1{
+    display: inline-block;
+    width: 35vw;
+    margin-left: 25vw;
+}
+
+.productsButton1,.creatorButton1,.contactButton1,.homeButton1{
+    background: none;
+    border-color: transparent;
+    display: inline-block;
+    color: #04060E;
+    text-align: center;
+    font-size: 0.95vw;
+    font-style: normal;
+    padding: 0% 7% 0% 7%;
+    font-weight: 400;
+    font-family: Ubuntu;
+    line-height: normal;
+}
+
+.rightTitleBar1{
+    display: inline-block;
+    width: 18vw;
+    margin-left: 15vw;
+}
+
+.trialButton1{
+    margin-right: 2vw;
+}
+
+.buyButton1{
+    display: inline-block;
+}
+
+
+.rectangle{
+    width: 66.65278vw;
+    height: 10.13889vw;
+    flex-shrink: 0;
+    background: #0039E3;
+    border-radius: 2.08333vw;
+    -webkit-border-radius: 2.08333vw;
+    -moz-border-radius: 2.08333vw;
+    -ms-border-radius: 2.08333vw;
+    -o-border-radius: 2.08333vw;
+    position: absolute;
+    top: 8.89vw;
+    left: 3.54vw;
+}
+
+a:link {color: rgb(255, 255, 255);}  
+a:visited {color: #ffffff}  
+a:hover {color: hsl(194, 100%, 50%)}  
+a:active {color: white}  
+
+.title1{
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 2.77778vw;
+    letter-spacing: 0.04vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 2.01vw;
+    /* height: 3.194vw; */
+    height: 2.7vw;
+    margin-bottom: 0;
+    margin-top: 1.6vw;
+}
+
+.downloading,.clickMe{
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 1.64vw;
+    font-style:normal;
+    font-weight: 700;
+    margin-left: 2.01vw;
+    letter-spacing: 0.04vw;
+}
+
+
+.clickMe{
+    color: white;
+}
+
+.keyboard{
+    width: 53.69444vw;
+    height: 26.0834vw;
+    flex-shrink: 0;
+    /* background-color: #0039E3; */
+    position: absolute;
+    top: 22.7vw;
+    left: 10.7vw;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1.1vw;
+}
+
+.row1,.row2,.row3,.row4{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75vw;
+
+}
+
+.kr1,.kr2,.kr3,.kr4{
+    width: 4.53vw;
+    height: 5.29833vw;
+    flex-shrink: 0;
+    border-radius: 1.5vw;
+    background: #81A0FF;
+    box-shadow: 0px var(--shadowDsitance) 0px 0px #6289FF;
+    -webkit-border-radius: 1.5vw;
+    -moz-border-radius: 1.5vw;
+    -ms-border-radius: 1.5vw;
+    -o-border-radius: 1.5vw;
+}
+
+.kr2,.kr3,.kr4{
+    background: #406AE9;
+    box-shadow: 0px var(--shadowDsitance) 0px 0px #2755DD;
+}
+
+.kr3{
+    background: #053EE8;
+    box-shadow: 0px var(--shadowDsitance) 0px 0px #002EB8;
+}
+
+.kr4{
+    background: #002ABF;
+    box-shadow: 0px var(--shadowDsitance) 0px 0px #001B7B;
+}
+
+
+
+
+.k21{
+    margin-left: 7.79vw;
+}
+
+.k31,.k39,.k41,.k46{
+    width: 7.05vw;
+}
+
+.k44{
+    width: 20.4vw;
+}
+
+.wirePhone{
+    display: none;
+}
+
+.wirePc{
+    width: 19vw;
+    /* height: 14.51687vw; */
+    flex-shrink: 0;
+    /* transform: rotate(33.64deg);
+    -webkit-transform: rotate(33.64deg);
+    -moz-transform: rotate(33.64deg);
+    -ms-transform: rotate(33.64deg);
+    -o-transform: rotate(33.64deg); */
+    position: absolute;
+    top: 11vw;
+    left: 68.8vw;
+    z-index: -99;
+}
+.mouse{
+    width: 14.93056vw;
+    height: 22.87021vw;
+    flex-shrink: 0;
+    fill: #0039E3;
+    position: absolute;
+    left: 79.1vw;
+    top: 24.5vw;
+    filter: drop-shadow(0px 0.75vw 0px #002DB1);
+    -webkit-filter: drop-shadow(0px 0.75vw 0px #002DB1);
+}
+
