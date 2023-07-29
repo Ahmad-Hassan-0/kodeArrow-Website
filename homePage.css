@@ -17,8 +17,8 @@ h1,p,h2,h3,b{
     align-items: center;
 }
 
-button{
-    background-color: #00207F;
+button,.button2{
+    background-color: #002db6;
     color: white;
     font-family: Ubuntu;
     border-radius: 0.3rem;
@@ -28,14 +28,46 @@ button{
     -o-border-radius: 0.3rem;
     font-size: 0.95vw;
     border: none;
+    border-color: #002db6;
+    border-style: solid;
+    border-width: 0.24vw;
     letter-spacing: 0.02vw;
-    padding:1.15vw 3vw 1.15vw 3vw ;
-    font-weight: 500;
+    padding:1.12vw 2.7vw 1.12vw 2.7vw ;
+    font-weight: 400;
     box-shadow: 0px 12px 25px -10px rgb(66, 69, 74, 0.3);
     -webkit-box-shadow: 0px 12px 25px -10px rgb(66, 69, 74, 0.3);
     -moz-box-shadow: 0px 12px 25px -10px rgb(66, 69, 74, 0.3);
-    
+    transition: 300ms;
 }
+
+button:hover{
+    color: #002db6;
+    background-color: white;
+    transition: 350ms;
+    border-style: groove;
+    -webkit-transition: 350ms;
+    /* font-weight: 400; */
+    -moz-transition: 350ms;
+    -ms-transition: 350ms;
+    -o-transition: 350ms;
+}
+
+.titlebutton32:hover{
+    color: #002db6;
+    background-color: white;
+    transition: 300ms;
+    border-style: solid;
+    border: 0vw;
+    font-weight: 900;
+    box-shadow: none;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -ms-transition: 300ms;
+    -o-transition: 300ms;
+}
+
+
+
 
 .codearrowTitle1{
     color: #00207F;
@@ -164,6 +196,7 @@ button{
     position: absolute;
     width: 92vw;
     right: 1vw;
+    z-index: -99999;
 }
 
 .arcPhone2{
@@ -401,7 +434,7 @@ button{
     width: 9vw;
     /* font-size: 0.9vw; */
     font-weight: 500;
-    background-color: #00207F;
+    /* background-color: #00207F; */
     color: white;
     font-family: Ubuntu;
     font-size: 0.95vw;
@@ -741,6 +774,7 @@ button{
         display:inline-block;
         position: absolute;
         right: 0;
+        width: 74vw;
     }
     
     .title2{
