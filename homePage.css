@@ -17,7 +17,8 @@ h1,p,h2,h3,b{
     align-items: center;
 }
 
-button,.button2{
+.button11,.button2,.button4,.buyButton1{
+    transition: 300ms;
     background-color: #002db6;
     color: white;
     font-family: Ubuntu;
@@ -32,42 +33,42 @@ button,.button2{
     border-style: solid;
     border-width: 0.24vw;
     letter-spacing: 0.02vw;
-    padding:1.12vw 2.7vw 1.12vw 2.7vw ;
+    /* padding:1.12vw 2.7vw 1.12vw 2.7vw ; */
+    padding:1vw 2.7vw 1vw 2.7vw ;
+
     font-weight: 400;
     box-shadow: 0px 12px 25px -10px rgb(66, 69, 74, 0.3);
     -webkit-box-shadow: 0px 12px 25px -10px rgb(66, 69, 74, 0.3);
     -moz-box-shadow: 0px 12px 25px -10px rgb(66, 69, 74, 0.3);
-    transition: 300ms;
 }
 
-button:hover{
+
+.button11:hover,.button2:hover,.button4:hover,.buyButton1:hover,.buyButton1:hover{
     color: #002db6;
     background-color: white;
-    transition: 350ms;
     border-style: groove;
-    -webkit-transition: 350ms;
-    /* font-weight: 400; */
-    -moz-transition: 350ms;
-    -ms-transition: 350ms;
-    -o-transition: 350ms;
+    transition: 400ms;
+    -webkit-transition: 400ms;
+    -moz-transition: 400ms;
+    -ms-transition: 400ms;
+    -o-transition: 400ms;
+    -moz-transition: 400ms;
 }
 
 .titlebutton32:hover{
     color: #002db6;
     background-color: white;
-    transition: 300ms;
     border-style: solid;
     border: 0vw;
     font-weight: 900;
     box-shadow: none;
-    -webkit-transition: 300ms;
-    -moz-transition: 300ms;
-    -ms-transition: 300ms;
-    -o-transition: 300ms;
+    transition: 400ms;
+    -webkit-transition: 400ms;
+    -moz-transition: 400ms;
+    -ms-transition: 400ms;
+    -o-transition: 400ms;
+    -moz-transition: 400ms;
 }
-
-
-
 
 .codearrowTitle1{
     color: #00207F;
@@ -81,7 +82,7 @@ button:hover{
 .middleTitleBar1{
     display: inline-block;
     width: 35vw;
-    margin-left: 25vw;
+    margin-left: 24vw;
 }
 
 .productsButton1,.creatorButton1,.contactButton1,.trialButton1{
@@ -97,6 +98,11 @@ button:hover{
     font-family: Ubuntu;
     line-height: normal;
 }
+
+.productsButton1:hover,.creatorButton1:hover,.contactButton1:hover,.trialButton1:hover{
+    color: #00207F;
+}
+
 
 .rightTitleBar1{
     display: inline-block;

@@ -21,8 +21,9 @@ h1,p,h2,h3,b{
     align-items: center;
 }
 
-button{
-    background-color: #0030c2;
+.button11,.button2,.button4,.buyButton1{
+    transition: 300ms;
+    background-color: #002db6;
     color: white;
     font-family: Ubuntu;
     border-radius: 0.3rem;
@@ -32,13 +33,45 @@ button{
     -o-border-radius: 0.3rem;
     font-size: 0.95vw;
     border: none;
+    border-color: #002db6;
+    border-style: solid;
+    border-width: 0.24vw;
     letter-spacing: 0.02vw;
-    padding:1.15vw 3vw 1.15vw 3vw ;
+    /* padding:1.12vw 2.7vw 1.12vw 2.7vw ; */
+    padding:1vw 2.7vw 1vw 2.7vw ;
+
     font-weight: 400;
     box-shadow: 0px 12px 25px -10px rgb(66, 69, 74, 0.3);
     -webkit-box-shadow: 0px 12px 25px -10px rgb(66, 69, 74, 0.3);
     -moz-box-shadow: 0px 12px 25px -10px rgb(66, 69, 74, 0.3);
-    
+}
+
+
+.button11:hover,.button2:hover,.button4:hover,.buyButton1:hover,.buyButton1:hover{
+    color: #002db6;
+    background-color: white;
+    border-style: groove;
+    transition: 400ms;
+    -webkit-transition: 400ms;
+    -moz-transition: 400ms;
+    -ms-transition: 400ms;
+    -o-transition: 400ms;
+    -moz-transition: 400ms;
+}
+
+.titlebutton32:hover{
+    color: #002db6;
+    background-color: white;
+    border-style: solid;
+    border: 0vw;
+    font-weight: 900;
+    box-shadow: none;
+    transition: 400ms;
+    -webkit-transition: 400ms;
+    -moz-transition: 400ms;
+    -ms-transition: 400ms;
+    -o-transition: 400ms;
+    -moz-transition: 400ms;
 }
 
 .codearrowTitle1{
@@ -53,7 +86,7 @@ button{
 .middleTitleBar1{
     display: inline-block;
     width: 35vw;
-    margin-left: 25vw;
+    margin-left: 24vw;
 }
 
 .productsButton1,.creatorButton1,.contactButton1,.homeButton1{
@@ -70,19 +103,32 @@ button{
     line-height: normal;
 }
 
+.productsButton1:hover,.creatorButton1:hover,.contactButton1:hover,.homeButton1:hover{
+    color: #00207F;
+}
+
+
 .rightTitleBar1{
     display: inline-block;
     width: 18vw;
-    margin-left: 15vw;
+    margin-left: 10vw;
 }
 
-.trialButton1{
-    margin-right: 2vw;
+.homeButton1{
+    margin-right: 2.8vw;
 }
 
 .buyButton1{
     display: inline-block;
 }
+
+.section1{
+    height:40vw;
+    margin-top:5vw;
+    align-items: flex-start;
+    vertical-align: top;
+}
+
 
 
 .rectangle{
@@ -231,6 +277,21 @@ a:active {color: white}
     filter: drop-shadow(0px 0.75vw 0px #002DB1);
     -webkit-filter: drop-shadow(0px 0.75vw 0px #002DB1);
 }
+
+.mousePhone{
+  display: none;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    top: 52vw;
+    left: 42vw;
+    height: 2vw;
+    color: #002ABF; 
+    font-size: 0.8vw;
+  }
+
 
 
 @media screen and (max-width:600px){
