@@ -1,5 +1,8 @@
 :root {
-    --shadowDsitance: 0.48611vw;
+    /* --shadowDsitance: 0.48611vw;
+    --shadowDistance2: 0.97222vw; */
+    --shadowDsitance: 0.5vw;
+    --shadowDistance2: 1vw;
   }
 
 body{
@@ -191,11 +194,12 @@ a:active {color: white}
     flex-shrink: 0;
     /* background-color: #0039E3; */
     position: absolute;
-    top: 22.7vw;
+    top: 23vw;
+    top: 22.4vw;
     left: 10.7vw;
     display: flex;
     flex-wrap: wrap;
-    row-gap: 1.1vw;
+    row-gap: 0.34vw;
 }
 
 .row1,.row2,.row3,.row4{
@@ -216,11 +220,32 @@ a:active {color: white}
     -moz-border-radius: 1.5vw;
     -ms-border-radius: 1.5vw;
     -o-border-radius: 1.5vw;
+    margin-top: var(--shadowDsitance);
+    margin-bottom: var(--shadowDsitance);
+    transition: 100ms;
+    -webkit-transition: 100ms;
+    -moz-transition: 100ms;
+    -ms-transition: 100ms;
+    -o-transition: 100ms;
 }
+
 
 .kr2,.kr3,.kr4{
     background: #406AE9;
     box-shadow: 0px var(--shadowDsitance) 0px 0px #2755DD;
+}
+
+.kr1:hover,.kr2:hover,.kr3:hover,.kr4:hover{
+    margin-top: var(--shadowDistance2);
+    /*margin-top: 1vw;
+    */margin-bottom: 0;
+    /*margin-top: 1vw;
+    */box-shadow: 0px 0 0px 0px ;
+    transition: 100ms;
+    -webkit-transition: 100ms;
+    -moz-transition: 100ms;
+    -ms-transition: 100ms;
+    -o-transition: 100ms;
 }
 
 .kr3{

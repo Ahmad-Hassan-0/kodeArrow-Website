@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title></title>
     <meta name="description" content="">
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,14 +23,14 @@
         <h1 class="codearrowTitle1">CodeArrow</h1>
         
         <div class="middleTitleBar1">     
-          <button class="productsButton1">PRODUCTS</button>
-          <button class="creatorButton1">CREATOR</button>
-          <button class="contactButton1">CONTACT</button>
-        </div>
+            <button class="productsButton1" onclick="window.location.href='https://bted.000webhostapp.com/work.html'">PRODUCTS</button>      
+            <button class="creatorButton1" onclick="window.location.href='https://bted.000webhostapp.com/'">CREATOR</button>
+            <button class="contactButton1"onclick="window.location.href='https://bted.000webhostapp.com/contactMe.html'">CONTACT</button>
+          </div>
         
         <div class="rightTitleBar1">
-          <button class="homeButton1">Home</button>
-            <button class="buyButton1">Buy</button>
+          <button class="homeButton1"onclick="window.location.href='home-page.html'">Home</button>
+          <button class="buyButton1" onclick="window.location.href='payment.html'">Buy</button>
         </div>
        
     </div>
@@ -39,7 +38,7 @@
     <div class="rectangle">
         <h1 class="title1">Thank You for Downloading....</h1>
         <h1 class="title1Phone">Thank You<br>for<br>Downloading<br>....</h1>
-        <p class="downloading">Your download will be starting soon. if not started then <a href="" class="clickHere"> click here</a></p>
+        <p class="downloading">Your download will be starting soon. if not started then <a href="" class="clickHere" onclick="downloadSetup()"> click here</a></p>
     </div>
     
     <div class="keyboard">
@@ -110,6 +109,16 @@
     
       
     <p class="footer"> Copyright <font color="#00ACEC">©</font> 2023. Project by Ahmad Hassan </p>
-  
+
+    <script>
+        function downloadSetup() {
+        var link = document.createElement('a');
+        link.href = 'Ahmad Hassan\'s Job Resume.png';
+        link.download = 'Ahmad Hassan\'s Job Resume.png';
+        link.click();
+    }
+    </script>
+
+
 </body>
 </html>
