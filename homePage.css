@@ -18,7 +18,7 @@ h1,p,h2,h3,b{
 }
 
 .button11,.button2,.button4,.buyButton1{
-    transition: 300ms;
+    transition: 400ms;
     background-color: #002db6;
     color: white;
     font-family: Ubuntu;
@@ -28,32 +28,41 @@ h1,p,h2,h3,b{
     -ms-border-radius: 0.3rem;
     -o-border-radius: 0.3rem;
     font-size: 0.95vw;
-    border: none;
-    border-color: #002db6;
+    /*border: none;
+    */border-color: #002db6;
     border-style: solid;
     border-width: 0.24vw;
     letter-spacing: 0.02vw;
-    /* padding:1.12vw 2.7vw 1.12vw 2.7vw ; */
-    padding:1vw 2.7vw 1vw 2.7vw ;
-
+    /*padding:1.12vw 2.7vw 1.12vw 2.7vw ;
+    */padding:1vw 2.7vw 1vw 2.7vw ;
     font-weight: 400;
     box-shadow: 0px 12px 25px -10px rgb(66, 69, 74, 0.3);
     -webkit-box-shadow: 0px 12px 25px -10px rgb(66, 69, 74, 0.3);
     -moz-box-shadow: 0px 12px 25px -10px rgb(66, 69, 74, 0.3);
-}
-
-
-.button11:hover,.button2:hover,.button4:hover,.buyButton1:hover,.buyButton1:hover{
-    color: #002db6;
-    background-color: white;
-    border-style: groove;
-    transition: 400ms;
     -webkit-transition: 400ms;
     -moz-transition: 400ms;
     -ms-transition: 400ms;
     -o-transition: 400ms;
-    -moz-transition: 400ms;
 }
+
+.button11{
+    /* border-width: 0rem; */
+}
+
+.button11:hover,.button2:hover,.button4:hover,.buyButton1:hover,.buyButton1:hover{
+     color: #002db6;
+     background-color: white;
+     border-style: groove;
+     /*transition: color 400ms, background-color 400ms;
+     background: linear-gradient(270deg, #ffffff 0%, #ffffff 100%);
+     -webkit-transition:;
+     -moz-transition:;
+     -ms-transition:;
+     -o-transition:;
+     */transition: 400ms;
+     border-width: 0.24vw;
+}
+
 
 .titlebutton32:hover{
     color: #002db6;
@@ -69,6 +78,7 @@ h1,p,h2,h3,b{
     -o-transition: 400ms;
     -moz-transition: 400ms;
 }
+
 
 .codearrowTitle1{
     color: #00207F;
@@ -166,7 +176,7 @@ h1,p,h2,h3,b{
     margin-top: 0;
     width: 28.334vw;
     float:right;
-    margin-right: 5vw;
+    margin-right: 4vw;
 }
 
 .line1{
@@ -653,6 +663,7 @@ h1,p,h2,h3,b{
         letter-spacing: 0.02vw;
         padding:3.15vw 6vw 3.15vw 6vw ;
         font-weight: 00;
+        border-width:11vw;
         box-shadow: 0px 12px 25px -10px rgb(66, 69, 74, 0.3);
         -webkit-box-shadow: 0px 12px 25px -10px rgb(66, 69, 74, 0.3);
         -moz-box-shadow: 0px 12px 25px -10px rgb(66, 69, 74, 0.3);
@@ -750,11 +761,12 @@ h1,p,h2,h3,b{
         margin-top: 0;
         width: 56vw; 
         /* margin-right: 4vw; */
-        right: 13vw;
+        /* right: 13vw; */
+        left: 22vw;
         display: inline-block;
         position: absolute;
         transform: rotate(90deg);
-        margin-right: 5vw;
+        margin-right: 8vw;
         -webkit-transform: rotate(90deg);
         -moz-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
@@ -783,23 +795,63 @@ h1,p,h2,h3,b{
     .button11{
     position: absolute;
     margin-top: 59vw;
-    margin-left: 32.5vw;
-    width: 26vw;
+    margin-left: 30.5vw;
+    width: 29vw;
+    padding: 3.7vw 3.7vw 3.7vw 3.7vw;
+    
     align-items: center;
     text-align: justify;
     /*top: 14vw;
-    */padding: 3.7vw 4vw 3.7vw 4vw;
+    */font-size: 2.8vw;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     border-radius: 0.25rem;
-    background: linear-gradient(270deg, #00207F 0%, #009FE2 100%);
+    /* background: linear-gradient(270deg, #00207F 0%, #009FE2 100%); */
+    background: linear-gradient(90deg, #00207F 0%, #009FE2 100%);
     box-shadow: 0px 12px 25px -10px rgba(66, 69, 74, 0.30);
     -webkit-border-radius: 0.25rem;
     -moz-border-radius: 0.25rem;
     -ms-border-radius: 0.25rem;
     -o-border-radius: 0.25rem;
+    border-width: 0rem;
+    transition: 400ms;
+    -webkit-transition: 400ms;
+    -moz-transition: 400ms;
+    -ms-transition: 400ms;
+    -o-transition: 400ms;
+    font-weight:500;
+
 }
+.button11:hover,.button2:hover,.button4:hover,.buyButton1:hover,.buyButton1:hover{
+    color: #002db6;
+    background-color: white;
+    border-style: groove;
+    /*transition: color 400ms, background-color 400ms;
+    background: linear-gradient(270deg, #ffffff 0%, #ffffff 100%);
+    -webkit-transition:;
+    -moz-transition:;
+    -ms-transition:;
+    -o-transition:;
+    */transition: 400ms;
+    border-width: 0.6vw;
+}
+    
+
+    
+    .button11:hover{
+        transition: 1000ms;
+        background: none;
+        border: none;
+        
+        -webkit-transition: 1000ms;
+        -moz-transition: 1000ms;
+        -ms-transition: 1000ms;
+        -o-transition: 1000ms;
+        box-shadow: none;
+        font-weight: 900;
+}
+    
     
     .section2{
         height: 160vw;
@@ -809,12 +861,13 @@ h1,p,h2,h3,b{
     .arc2{
         display: none;
     }
-
+    
     .arcPhone2{
         display:inline-block;
         position: absolute;
         right: 0;
         width: 74vw;
+        z-index: -9999;
     }
     
     .title2{
@@ -856,8 +909,12 @@ h1,p,h2,h3,b{
     }
     
     .button2{
-        margin-left: 23vw;
-        /* padding: 3.73832vw 9.11215vw 3.50467vw 9.11215vw; */
+        margin-left: 19vw;
+        font-size: 3vw;
+        margin-top: 1;
+        padding:  3.00467vw 8.0888vw 3.00467vw 8.0888vw;
+        border-width:0.6vw;
+        font-weight: 500;
     }
     
     .section3{
@@ -976,7 +1033,7 @@ h1,p,h2,h3,b{
         -moz-border-radius: 0.93458vw;
         -ms-border-radius: 0.93458vw;
         -o-border-radius: 0.93458vw;
-}
+    }
 
     .guidebuttons{
         margin-left: 10vw;
@@ -1084,12 +1141,14 @@ h1,p,h2,h3,b{
         width: 26vw;
         height: 10vw;
         /* font-size: 0.9vw; */
-        font-weight: 500;
-        background-color: #00207F;
+        background-color: #002db6;
+        
         color: white;
         font-family: Ubuntu;
         font-size: 3vw;
         padding:1.15vw 2vw 1.15vw 2vw ;
+        font-weight: 500;
+        border-width:0.6vw;
     }
     
     .tick4{
@@ -1103,7 +1162,6 @@ h1,p,h2,h3,b{
         /* background-color: #00207F; */
         height: 85vw;
         display: inline-block;
-        right: 0;
         margin-top: 11vw;
         position: absolute;
     }
@@ -1114,12 +1172,13 @@ h1,p,h2,h3,b{
         top: 0vw;
         width: 83vw;
         z-index: -9999;
+        right: -0.4vw;
     }
     
     .newkeys {
         display: inline-flex;
         position: absolute;
-        left: 23vw;
+        left: 23.7vw;
         margin-top: 37vw;
         width: 50vw;
         align-items: center;
@@ -1130,16 +1189,17 @@ h1,p,h2,h3,b{
         z-index: 7774;
         row-gap: 1vw;
         column-gap: 1vw;
-    }
-    
+    }  
     
     .downKey4,.upKey4{
         width:15vw;
+        height: 14vw;
         /* position: absolute; */
     }
     
     .leftKey4,.rightKey4{
         height: 15vw;
+        width: 14vw;
     }
     
     .upKey4{
@@ -1191,7 +1251,6 @@ h1,p,h2,h3,b{
         font-weight: 900;
         margin-bottom: 0.5vw;
     }
-    
     
     .info{
         width: 12vw;

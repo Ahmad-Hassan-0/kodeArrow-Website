@@ -13,6 +13,39 @@
  
     
     <link rel="stylesheet" href="downloadPageStyle.css">
+
+
+    <script>
+        // Function to initiate the file download
+        function initiateDownload() {
+            // Create an anchor element
+            var anchor = document.createElement("a");
+            
+            // Set the href attribute to the file's URL
+            anchor.href = "your_file_url_here"; // Replace with the actual file URL
+
+            // Set the download attribute to specify the desired filename for the downloaded file
+            anchor.download = "filename.extension"; // Replace with the desired filename and extension
+
+            // Programmatically click the anchor element to initiate the download
+            anchor.click();
+        }
+
+        // Execute the initiateDownload function after 3 seconds when the page loads
+        window.onload = function () {
+            setTimeout(initiateDownload, 3000); // 3000 milliseconds = 3 seconds
+        };
+
+        // Attach initiateDownload function to the anchor's click event
+        document.addEventListener("DOMContentLoaded", function () {
+            var downloadAnchor = document.getElementById("download-anchor");
+            downloadAnchor.addEventListener("click", function(event) {
+                event.preventDefault(); // Prevent the default behavior of the anchor
+                initiateDownload();
+            });
+        });
+    </script>
+
 </head> 
 
 <body>
@@ -38,7 +71,7 @@
     <div class="rectangle">
         <h1 class="title1">Thank You for Downloading....</h1>
         <h1 class="title1Phone">Thank You<br>for<br>Downloading<br>....</h1>
-        <p class="downloading">Your download will be starting soon. if not started then <a href="" class="clickHere" onclick="downloadSetup()"> click here</a></p>
+        <p class="downloading">Your download will be starting soon. if not started then <a href="#" id="download-anchor" class="clickHere" > click here</a></p>
     </div>
     
     <div class="keyboard">
@@ -109,15 +142,6 @@
     
       
     <p class="footer"> Copyright <font color="#00ACEC">©</font> 2023. Project by Ahmad Hassan </p>
-
-    <script>
-        function downloadSetup() {
-        var link = document.createElement('a');
-        link.href = 'Ahmad Hassan\'s Job Resume.png';
-        link.download = 'Ahmad Hassan\'s Job Resume.png';
-        link.click();
-    }
-    </script>
 
 
 </body>
